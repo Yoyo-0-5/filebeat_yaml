@@ -149,11 +149,11 @@ output.elasticsearch:
   password: "密碼"
   ssl:
     verification_mode: "none"
-  index: "我的名字-服務名稱"
+  index: "gitlab名字-服務名稱"
 
 setup.template:
-    name: '我的名字'
-    pattern: '我的名字-*'
+    name: 'gitlab名字'
+    pattern: 'gitlab名字-*'
     enabled: false
 
 # ------------------------------ Logstash Output -------------------------------
